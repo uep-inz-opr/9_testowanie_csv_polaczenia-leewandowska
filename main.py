@@ -1,5 +1,4 @@
 import csv
-!curl https://raw.githubusercontent.com/khashishin/repozytorium_z_plikiem_polaczenia/main/phoneCalls.csv > phoneCalls.csv
 
 class MenadzerPolaczen:
   def __init__(self, filename):
