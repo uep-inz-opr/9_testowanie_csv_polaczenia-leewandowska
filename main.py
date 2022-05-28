@@ -2,7 +2,7 @@ import csv
 
 class MenadzerPolaczen:
   def __init__(self, filename):
-    self.filenaCme = filename
+    self.filename = filename
     self.data_dict = self.read_data()
 
   def read_data(self):
